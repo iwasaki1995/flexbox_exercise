@@ -26,9 +26,42 @@ header{
 main{
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .main-box-left{
   width: 300px;
   background-color: #ddffbc;
+}
+
+.main-box-right{
+  max-width: 700px;
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #32cd32;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-box{
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+  background-color: #edde7b;
+}
+
+footer{
+  width: 100%;
+  padding: 20px;
+  background-color: #38a1db;
+  display: flex;
+
+}
+
+.footer-box{
+  flex-basis: 45%;
+  max-width: 600px;
+  height: 40px;
+  margin: 10px;
+  background-color: #a1d8e2;
 }
